@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+    /*  green background for button  
+    background-color: #4CAF50;
+
+    background-color: #3e8e41; */
+
+*{
+    margin: 0;
+}
+#login{
+    margin-left: 75%;
+    position: absolute;
+    top: 20px;
+    width: 80px;
+    height: 50px;   
+    border-radius: 10px;
+    transition: .1s ease-in-out;
+    font-size: 20px;
+}
+#login:hover{
+    width: 174px;
+    z-index: 2;
+    font-size: 35px;
+    transition: .1s ease-in-out;
+    background-color: black;
+    color: white;
+}
+#signup{
+    position: absolute;
+    margin-left: 81.5%;
+    top: 20px;
+    width: 85px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: .1s ease-in-out;
+}
+#signup:hover{
+    transform: translateX(-88px);
+    width: 170px;
+    z-index: 2;
+    font-size: 35px;
+    transition: .1s ease-in-out;
+    background-color: black;
+    color: white;
+}
+nav{
+    background-color: rgb(252, 252, 252);
+}
+#field{
+    margin-left: 60%;
+    position: absolute;
+    z-index: 2;
+    top: 30%;
+    width: 35%;
+    height: 40%;
+    
+}
+#head{
+    font-size: 40px;
+    margin-top: 180px;
+    position: relative;
+}
+input{
+    width: 100%;
+    height: 20%;
+    border: none ;
+    border-radius: 10px;
+    font-size: 20px;
+} 
+
+#linkimg{
+    padding-left: 50px; 
+  background-image: url('linkurl.png'); 
+  background-repeat: no-repeat;
+  background-position: 5px center; 
+  background-size: 35px; 
+  
+}
+#textlogo{
+    padding-left: 50px; 
+  background-image: url('textlogo.png'); 
+  background-repeat: no-repeat;
+  background-position: 5px center; 
+  background-size: 35px; 
+}
+/* the folowing 2 selector code was a really big jugad please dont touch it  */
+#filebtn {
+    position: relative;
+    top: -35px;
+    width: 530px;
+    height: 20%;
+    padding-left: 50px; 
+    background-image: url('uploadfile.png'); 
+    background-repeat: no-repeat;
+    background-position: 5px center; 
+    background-size: 35px; 
+    font-size: 20px;
+    border-radius: 10px;  
+}
+
+#mainfile{
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+}
+#generate{
+    width: 200px;
+    height: 50px;
+    margin-left: 35%;
+    font-size: 20px;
+    border-radius: 20px 5px ;
+    transition: .2s ease-in-out;
+}
+#generate:hover{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    transition: .2s ease-in-out;
+}
+.contain2{
+    margin-top: 80px;
+    background-color: rgb(0, 0, 0);
+    height: 660px;
+}
+#head2{
+    color: #f2f2f2;
+    font-size: 100px;
+}
+#para{
+    font-size: 30px;
+    width: 50%;
+    color: #f2f2f2;
+    margin-top: 30px;
+}
+.image-container {
+    width: 49%; 
+    height: 470px; 
+    background-size: contain;
+    /* background-position: center; */
+    /* animation: changeImage 10s infinite ease-in-out; */
+    margin-left: 50%; 
+    position: relative;
+    bottom: 450px;
+    background-image: url('Page2 img/img1.png');
+    transition: .3s ease-in-out;
+    
+  }
+  .image-container:hover{
+    background-color: rgba(255, 255, 255, 0.342);
+    transition: .3s ease-in-out;
+    border-radius: 20px;
+    transform: scale(1.02);
+  }
+  
+  /* @keyframes changeImage {
+    0% {
+      background-image: url('Page2 img/img1.png');
+    }
+    50% {
+      background-image: url('Page2 img/img2.png');
+    }
+    100% {
+      background-image: url('page2 img/img3.png');
+    }
+  } */
+  
