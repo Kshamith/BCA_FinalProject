@@ -81,7 +81,7 @@ input{
   background-size: 35px; 
   
 }
-#textlogo{
+#qr-content{
     padding-left: 50px; 
   background-image: url('textlogo.png'); 
   background-repeat: no-repeat;
@@ -168,4 +168,9 @@ input{
       background-image: url('page2 img/img3.png');
     }
   } */
-  
+
+#qr-image {
+    max-width: 300px;
+    margin-left: 36%;
+    margin-top: 20px;
+}

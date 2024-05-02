@@ -20,28 +20,20 @@
             <p>Easily generate, manage and statistically track your QR codes</p>
     </div>
     <div id="field">
-                
-                <input id="linkimg" type="text" placeholder=" URL/Link " ><br><br>
-                <input id="textlogo"  type="text" placeholder=" Text"><br><br>
-                <input  id="mainfile" type="file"  ><br><br>
-                <button id="filebtn">Upload Files</button>
-                <button id="generate">Generate QR</button>
+        <input  id="qr-content"  type="text" placeholder=" Text"><br><br>
+        <button id="generate" onclick="generateQRCode()">Generate QR</button>
+        <img id="qr-image" src="" alt="QR Code">
     </div>
     <div class="contain2">
         <h1 id="head2">I'm new to QR Codes. What should I know?</h1>
-    <div id="para">
-        <p>QR Code is a two-dimensional version of the barcode, typically made up of black and white pixel patterns. Denso Wave, a Japanese subsidiary of the Toyota supplier Denso, developed them for marking components in order to accelerate logistics processes for their automobile production. Now, it has found its way into mobile marketing with the widespread adoption of smartphones. "QR" stands for "Quick Response", which refers to the instant access to the information hidden in the Code.</p>
+        <div id="para">
+            <p>QR Code is a two-dimensional version of the barcode, typically made up of black and white pixel patterns. Denso Wave, a Japanese subsidiary of the Toyota supplier Denso, developed them for marking components in order to accelerate logistics processes for their automobile production. Now, it has found its way into mobile marketing with the widespread adoption of smartphones. "QR" stands for "Quick Response", which refers to the instant access to the information hidden in the Code.</p>
+        </div>
+        <div class="image-container">
+            
+        <!-- i have added photos in css  -->
+        </div>
     </div>
-    <div class="image-container">
-    <!-- i have added photos in css  -->
-    </div>
-
-    </div>
-    <!-- <div class="visme_d" data-title="Custom Form" data-url="76n8dvgw-custom-form" data-domain="forms" data-full-page="false" data-min-height="500px" data-form-id="61297">
-
-    </div>
-    <script src="https://static-bundles.visme.co/forms/vismeforms-embed.js">
-    </script> -->
-    
+    <script src="QRcode.js"></script>
 </body>
 </html>
